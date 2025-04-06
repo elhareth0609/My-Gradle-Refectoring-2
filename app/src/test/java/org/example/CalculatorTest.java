@@ -7,7 +7,7 @@ class CalculatorTest {
     @Test
     void testCalc() {
         Calculator calc = new Calculator();
-        double result = calc.calc(2, 3);
+        double result = calc.calculateResult(2, 3);
         assertEquals(5.0 / 6.0, result, 0.001);
     }
 }
